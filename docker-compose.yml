@@ -7,8 +7,8 @@ services:
     environment:
       - MAX_CONCURRENT_SESSIONS=10
 
-  hehuan-robot:
-    image: mdyu1000/hehuan-robot:lastest
+  cpami-robot:
+    image: mdyu1000/cpami-robot:lastest
     environment:
       - NODE_ENV=production
       - CPAMI_ID=yourId
